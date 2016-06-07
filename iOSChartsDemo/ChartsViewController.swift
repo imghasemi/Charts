@@ -33,6 +33,8 @@ class ChartsViewController: UIViewController, ChartViewDelegate {
         print("\(entry.value) in \(months[entry.xIndex])")
         pieChartView.descriptionText = "\(entry.value) in \(months[entry.xIndex])"
         lineChartView.descriptionText = "\(entry.value) in \(months[entry.xIndex])"
+        //everthing is done
+        print("somethings")
     
     }
     
